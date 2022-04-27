@@ -1,4 +1,4 @@
-<template>
+<!--<template>
   <div class="max-w-screen-lg mx-auto bg-white dark:bg-[#333333]">
     <div class="">
       <nav class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center md:h-max">
@@ -7,7 +7,6 @@
             <img src="@/assets/Tristan_dark.svg" class="px-4 py-1 dark:hidden" alt="logo">
             <img src="@/assets/Tristan_light.svg" class="px-4 py-1" alt="logo">
           </router-link>
-          <!-- Mobile menu button -->
           <div @click="showMenu = !showMenu" class="flex md:hidden">
             <button type="button" name="button" class="text-[#DA5759]" aria-label="open menu">
               <p class="hidden">-</p>
@@ -15,7 +14,6 @@
             </button>
           </div>
         </div>
-        <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
           <ul :class="showMenu ? 'flex' : 'hidden'" class="flex-col h-full mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 gap-3 text-[#333333] dark:text-[#FFFFFF]">
             <router-link to="/" class="hover:bg-[#DA5759] hover:text-[#000000] hover:transition hover:duration-200 hover:font-semibold rounded">Présentation</router-link>
             <li><a class="hover:bg-[#DA5759] hover:text-[#000000] hover:transition hover:duration-200 hover:font-semibold rounded" href="/#stages">Stages</a></li>
@@ -26,6 +24,46 @@
       </nav>
     </div>
   </div>
+</template>-->
+
+<template>
+<header class="fixed inset-x-0">
+  <div class="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+    <div class="flex items-center">
+      <button type="button" class="p-2 sm:mr-4 lg:hidden">
+        <svg
+          class="w-6 h-6"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+
+      <router-link to="/" class="">
+        <img src="@/assets/Tristan_dark.svg" class="px-4 py-1 dark:hidden" alt="logo">
+        <img src="@/assets/Tristan_light.svg" class="px-4 py-1" alt="logo">
+      </router-link>
+    </div>
+
+    <div class="flex items-center mx-auto space-x-10">
+      <nav class="hidden lg:uppercase lg:text-white lg:tracking-wide lg:font-bold lg:text-xs lg:space-x-4 lg:flex">
+        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759]">Présentation</a>
+        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759]">Stages</a>
+        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759]">Projets</a>
+        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759]">Blog</a>
+        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759]">Contact</a>
+      </nav>
+    </div>
+  </div>
+</header>
 </template>
 
 <script>
