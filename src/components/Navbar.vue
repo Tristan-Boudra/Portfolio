@@ -27,8 +27,8 @@
 </template>-->
 
 <template>
-<header class="fixed inset-x-0">
-  <div class="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+<header class="p-4 fixed inset-x-0 z-20 md:shadow-[0_5px_25px_-3px_rgba(0,0,0,0.1)] max-w-screen-lg mx-auto">
+  <div class="flex items-center justify-between h-16 mx-auto sm:px-6 lg:px-8">
     <div class="flex items-center">
       <button type="button" class="p-2 sm:mr-4 lg:hidden">
         <svg
@@ -53,13 +53,13 @@
       </router-link>
     </div>
 
-    <div class="flex items-center mx-auto space-x-10">
-      <nav class="hidden lg:uppercase lg:text-white lg:tracking-wide lg:font-bold lg:text-xs lg:space-x-4 lg:flex">
-        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759]">Présentation</a>
-        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759]">Stages</a>
-        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759]">Projets</a>
-        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759]">Blog</a>
-        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759]">Contact</a>
+    <div class="flex items-center space-x-10">
+      <nav class="hidden lg:uppercase lg:text-white lg:tracking-wide lg:font-semi-bold lg:text-xs lg:space-x-4 lg:flex">
+        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759] tracking-widest">Présentation</a>
+        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759] tracking-widest">Stages</a>
+        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759] tracking-widest">Projets</a>
+        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759] tracking-widest">Blog</a>
+        <a href="#" class="block h-16 leading-[4rem] border-transparent hover:text-[#DA5759] tracking-widest">Contact</a>
       </nav>
     </div>
   </div>
