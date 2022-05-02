@@ -10,7 +10,7 @@
             <div class="text-7xl font-black md:text-left pb-10 animate-move-bg bg-gradient-to-r from-red-400 via-yellow-500 to-red-400 bg-[length:400%] bg-clip-text text-transparent">Boudra<br>Tristan</div>
             <div class="p-5 md:pl-0 mt-10 mx-auto md:text-left"><span class="text-xl">Hello</span> 👋<br>Je suis actuellement étudiant en Bachelor Développeur web et mobile à MyDigitalSchool à Lyon.</div>
             <div class="mt-10 flex flex-wrap gap-8 sm:mx-auto justify-center space-x-6 mx-auto md:justify-start text-[#333333]">
-              <button class="bg-[#DA5759] p-2 rounded-lg text-[#000000] font-bold text-center w-32 h-14 tracking-widest transition duration-600"><a class="bg-transparent" href="/#bts">Commencer</a></button>
+              <button class="bg-[#DA5759] p-2 rounded-lg text-[#000000] font-bold text-center w-32 h-14 tracking-widest transition duration-600"><a class="bg-transparent" href="/#presentation">Commencer</a></button>
               <router-link class="border-2 border-[#333333] p-3 rounded-lg font-bold text-center h-full tracking-widest flex-row text-[#333333] flex flex-cols py-auto" to="/projects">
                 <p class="pr-2">Voir mes projets</p>
                 <i data-feather="arrow-right" class="stroke-[#333333]"></i>
@@ -63,8 +63,8 @@
     <section id="projects" class="max-w-screen-lg mx-auto bg-white">
       <div class="max-w-screen-lg mx-auto px-3 py-16 mt-20 grid gap-12 text-[#333333]">
         <h2 class="text-3xl font-bold text-center mx-auto">Mes projets</h2>
-        <div class="flex flex-col gap-20" >
-          <div v-for="row in Realisation" v-bind:key="row" class="gap-16">
+        <div class="grid md:grid-cols-2 gap-8">
+          <div v-for="row in Projects" v-bind:key="row">
             <Projects :data="row"/>
           </div>
         </div>
@@ -116,9 +116,9 @@ export default {
     };
   },
   computed: {
-    Realisation() {
-      const allRealisation = this.$store.state.realisation;
-      return allRealisation.slice(0, 2);
+    Projects() {
+      const allProjects = this.$store.state.projects;
+      return allProjects;
     },
     Stages() {
       const allStages = this.$store.state.stages;

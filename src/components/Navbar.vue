@@ -13,7 +13,7 @@
     </div>
 
     <div class="flex items-center mx-auto space-x-10">
-      <nav class="hidden lg:uppercase lg:text-white lg:tracking-wide lg:font-bold lg:text-xs lg:space-x-4 lg:flex">
+      <nav class="hidden lg:text-white lg:tracking-wide lg:font-bold lg:space-x-8 lg:flex">
         <a href="#presentation" class="block h-16 leading-[4rem] border-transparent text-[#333333] hover:text-[#DA5759]">Présentation</a>
         <a href="#stages" class="block h-16 leading-[4rem] border-transparent text-[#333333] hover:text-[#DA5759]">Stages</a>
         <a href="#projects" class="block h-16 leading-[4rem] border-transparent text-[#333333] hover:text-[#DA5759]">Projets</a>
