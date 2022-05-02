@@ -1,6 +1,6 @@
 <template>
-  <div class="dark:bg-red-200">
-    <section class="dark:bg-[#333333]">
+  <div class="">
+    <section class="">
       <div class="flex flex-col">
         <h1 class="text-2xl font-bold p-2 mb-5">{{ data.name }}</h1>
         <img class="mx-auto w-auto rounded-lg mb-5 border border-[#333333]" v-if="this.data.img" :src="require(`@/assets/${data.img}.png`)" alt="image projetcs">

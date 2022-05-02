@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full dark:bg-[#333333]">
+  <div class="w-full">
     <Navbar/>
-    <section class="max-w-screen-lg mx-auto mt-20 dark:bg-[#333333] text-[#333333] dark:text-[#FFFFFF]">
+    <section class="max-w-screen-lg mx-auto mt-20 text-[#333333]">
       <div class="max-w-screen-lg mx-auto px-3 grid gap-6">
         <h1 class="text-3xl font-bold text-center mx-auto">{{ this.brogieux.name }}</h1>
         <img class="mx-auto rounded-lg mb-5" v-if="this.brogieux.img" :src="require(`@/assets/${this.brogieux.img}.png`)" alt="Images du chateau de Brogieux">
@@ -33,7 +33,7 @@
           </ul>
         </div>
         <div class="flex justify-center space-x-6 mx-auto md:justify-start">
-          <ul class="flex gap-2 flex-wrap space-x-5 flex-wrap">
+          <ul class="flex gap-2 flex-wrap space-x-5">
             <li v-for="website in this.brogieux.link" v-bind:key="website">
               <a class="bg-[#DA5759] p-2 rounded-lg text-[#000000] font-bold text-center w-32 h-auto tracking-widest" :href="website.link">{{ website.linkName }}</a>
             </li>
