@@ -139,6 +139,10 @@ export default createStore({
             linkName: 'Portfolio',
             link: 'https://boudra-tristan.fr/',
           },
+          {
+            linkName: 'GitHub',
+            link: 'https://github.com/Tristan-Boudra/Portfolio',
+          },
         ],
       },
       {
@@ -178,6 +182,10 @@ export default createStore({
             linkName: 'Covoit',
             link: 'https://covoit.erwan-decoster.com/',
           },
+          {
+            linkName: 'GitHub',
+            link: 'https://github.com/Tristan-Boudra/Covoit',
+          },
         ],
       },
       {
@@ -194,6 +202,12 @@ export default createStore({
           {
             name: 'MySql',
             color: '775113',
+          },
+        ],
+        links: [
+          {
+            linkName: 'GitHub',
+            link: 'https://github.com/Tristan-Boudra/CovoitAdmin',
           },
         ],
       },
@@ -218,6 +232,10 @@ export default createStore({
             linkName: 'Kathekon',
             link: 'https://www.projet-kathekon.com/',
           },
+          {
+            linkName: 'GitHub',
+            link: 'https://github.com/Tristan-Boudra/Kathekon',
+          },
         ],
       },
       {
@@ -240,6 +258,10 @@ export default createStore({
           {
             linkName: 'Vm-Automation',
             link: 'https://www.vm-automation.com/',
+          },
+          {
+            linkName: 'GitHub',
+            link: 'https://github.com/Tristan-Boudra/VM-Automation',
           },
         ],
       },

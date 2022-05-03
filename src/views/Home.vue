@@ -1,14 +1,13 @@
 <template>
   <div class="w-full">
     <Navbar/>
-    <!-- Pour faire une section carré -->
     <section id="presentation" class="max-w-screen-lg mx-auto">
       <div class="mt-20 w-full py-16 grid md:grid-cols-2 md:p-10 md:py-0 md:mt-28">
         <div class="flex-col pt-10">
           <div class="gap-4 mx-auto p-1 sm:pl-0 text-[#333333]">
             <!-- <div class="w-full text-7xl pb-10 font-black md:text-left">Boudra<br>Tristan</div> -->
             <div class="text-7xl font-black md:text-left pb-10 animate-move-bg bg-gradient-to-r from-red-400 via-yellow-500 to-red-400 bg-[length:400%] bg-clip-text text-transparent">Boudra<br>Tristan</div>
-            <div class="p-5 md:pl-0 mt-10 mx-auto md:text-left"><span class="text-xl">Hello</span> 👋<br>Je suis actuellement étudiant en Bachelor Développeur web et mobile à MyDigitalSchool à Lyon.</div>
+            <div class="p-5 md:pl-0 mt-10 mx-auto md:text-left"><span class="text-xl">Hello</span>👋<br>Je suis actuellement étudiant en Bachelor Développeur web et mobile à MyDigitalSchool à Lyon.</div>
             <div class="mt-10 flex flex-wrap gap-8 sm:mx-auto justify-center space-x-6 mx-auto md:justify-start text-[#333333]">
               <button class="bg-[#DA5759] p-2 rounded-lg text-[#000000] font-bold text-center w-32 h-14 tracking-widest transition duration-600"><a class="bg-transparent" href="/#presentation">Commencer</a></button>
               <router-link class="border-2 border-[#333333] p-3 rounded-lg font-bold text-center h-full tracking-widest flex-row text-[#333333] flex flex-cols py-auto" to="/projects">
@@ -50,7 +49,7 @@
       </div>
     </section>
     <section id="stages" class="max-w-screen-lg mx-auto bg-white">
-      <div class="max-w-screen-lg mx-auto p-5 py-16 mt-20 text-[#333333]">
+      <div class="max-w-screen-lg mx-auto px-10 py-16 mt-20 text-[#333333]">
         <h2 class="text-3xl font-bold text-center mx-auto">Stage</h2>
         <p class="p-5 w-auto mx-auto mt-10">Durant le BTS SIO, nous devons effectuer 2 stages en entreprise pour une durée totale de 10 semaines permettant de valider notre BTS.</p>
         <div class="grid md:grid-cols-2 gap-8">
@@ -61,15 +60,12 @@
       </div>
     </section>
     <section id="projects" class="max-w-screen-lg mx-auto bg-white">
-      <div class="max-w-screen-lg mx-auto px-3 py-16 mt-20 grid gap-12 text-[#333333]">
+      <div class="max-w-screen-lg mx-auto px-10 py-16 mt-20 grid gap-12 text-[#333333]">
         <h2 class="text-3xl font-bold text-center mx-auto">Mes projets</h2>
         <div class="grid md:grid-cols-2 gap-8">
           <div v-for="row in Projects" v-bind:key="row">
             <Projects :data="row"/>
           </div>
-        </div>
-        <div>
-          <router-link to="/projects" class="bg-[#DA5759] p-2 rounded-lg text-[#000000] font-bold text-center w-32 h-14 tracking-widest mx-auto">En voir plus</router-link>
         </div>
       </div>
     </section>
@@ -78,7 +74,7 @@
         <h2 class="text-3xl font-bold text-center mx-auto">Blog</h2>
         <p class="text-left p-6">J'ai décidé de créer un blog afin de partager mes connaissances ainsi que mes compétences afin que vous et moi puissions progresser ensemble et ainsi en apprendre davantage sur l'univers du développement web.<br>
           Vous y trouverez toutes sortes de sujets autant divers et variétés. En partant du début de la conception d'un site web, des conseils pendant le développement puis dans la finalisation d'un site et de la mise en production.</p>
-          <router-link to="/veilles" class="bg-[#DA5759] p-2 rounded-lg text-[#000000] font-bold text-center w-auto h-auto tracking-widest mx-auto">Voir le blog</router-link>
+          <router-link to="/blog" class="bg-[#DA5759] p-2 rounded-lg text-[#000000] font-bold text-center w-auto h-auto tracking-widest mx-auto">Voir le blog</router-link>
       </div>
     </section>
     <section id="contact" class="max-w-screen-lg mx-auto bg-white">

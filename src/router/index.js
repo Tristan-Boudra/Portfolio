@@ -3,7 +3,7 @@ import Home from '../views/Home.vue';
 import Projects from '../views/Projects.vue';
 import Realisation from '../views/Realisation.vue';
 import Veilles from '../views/Veilles.vue';
-import Stage from '../views/Stage.vue';
+import Blog from '../views/Blog.vue';
 import MentionsLegales from '../views/MentionsLegales.vue';
 
 const routes = [
@@ -28,14 +28,14 @@ const routes = [
     component: Veilles,
   },
   {
-    path: '/stage',
-    name: 'Stage',
-    component: Stage,
-  },
-  {
     path: '/mentionsLegales',
     name: 'MentionsLegales',
     component: MentionsLegales,
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: Blog,
   },
 ];
 
