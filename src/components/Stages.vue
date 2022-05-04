@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-lg shadow-[0_5px_25px_-3px_rgba(0,0,0,0.2)] h-full p-5">
+  <div class="rounded-lg shadow-[0_5px_25px_-3px_rgba(0,0,0,0.1)] hover:shadow-[0_5px_25px_-3px_rgba(0,0,0,0.3)] hover:transform hover:transition hover:duration-500 hover:ease-in-out h-full p-5">
     <section class="">
       <div class="flex flex-col">
         <h1 class="text-2xl font-bold p-2 mb-5">{{ data.name }}</h1>

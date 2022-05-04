@@ -25,9 +25,8 @@
         </button> -->
       </div>
       <div v-if="openNav" class="md:hidden my-auto">
-        <ul class="flex flex-col gap-4 justify-center mx-auto items-center h-full text-2xl">
+        <ul class="flex flex-col gap-4 justify-center mx-auto items-center h-full text-2xl tracking-widest">
           <li><a @click="openNav = !openNav" href="#presentation" class="block h-16 leading-[4rem] text-[#333333] hover:text-[#DA5759]">Présentation</a></li>
-          <!-- <li><a @click="openNav = !openNav" href="#presentation" class="block h-16 leading-[4rem] border-transparent text-[#333333] hover:text-[#DA5759]"><div class="bg-red-400 h-10 top-5">test</div></a></li> -->
           <li><a @click="openNav = !openNav" href="#stages" class="block h-16 leading-[4rem] text-[#333333] hover:text-[#DA5759]">Stages</a></li>
           <li><a @click="openNav = !openNav" href="#projects" class="block h-16 leading-[4rem] text-[#333333] hover:text-[#DA5759]">Projets</a></li>
           <li><a @click="openNav = !openNav" href="#blog" class="block h-16 leading-[4rem] text-[#333333] hover:text-[#DA5759]">Blog</a></li>
@@ -36,12 +35,12 @@
       </div>
     </div>
     <div class="flex items-center mx-auto space-x-10">
-      <nav class="hidden lg:text-white lg:tracking-wide lg:font-bold lg:space-x-8 lg:flex">
-        <div class="hover:bg-[#DA5759] hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="#presentation" class="block h-16 leading-[4rem] text-[#333333]">Présentation</a></div>
-        <div class="hover:bg-[#DA5759] hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="#stages" class="block h-16 leading-[4rem] text-[#333333]">Stages</a></div>
-        <div class="hover:bg-[#DA5759] hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="#projects" class="block h-16 leading-[4rem] text-[#333333]">Projets</a></div>
-        <div class="hover:bg-[#DA5759] hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="#blog" class="block h-16 leading-[4rem] text-[#333333]">Blog</a></div>
-        <div class="hover:bg-[#DA5759] hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="#contact" class="block h-16 leading-[4rem] text-[#333333]">Contact</a></div>
+      <nav class="hidden lg:text-white lg:tracking-wide font-semibold lg:space-x-8 lg:flex">
+        <div class="hover:bg-[#DA5759] hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="#presentation" class="block h-16 leading-[4rem] text-[#333333] tracking-widest">Présentation</a></div>
+        <div class="hover:bg-[#DA5759] hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="#stages" class="block h-16 leading-[4rem] text-[#333333] tracking-widest">Stages</a></div>
+        <div class="hover:bg-[#DA5759] hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="#projects" class="block h-16 leading-[4rem] text-[#333333] tracking-widest">Projets</a></div>
+        <div class="hover:bg-[#DA5759] hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="#blog" class="block h-16 leading-[4rem] text-[#333333] tracking-widest">Blog</a></div>
+        <div class="hover:bg-[#DA5759] hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="#contact" class="block h-16 leading-[4rem] text-[#333333] tracking-widest">Contact</a></div>
       </nav>
     </div>
   </div>
