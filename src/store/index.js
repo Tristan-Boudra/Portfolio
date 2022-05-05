@@ -266,6 +266,32 @@ export default createStore({
         ],
       },
     ],
+    blog: [
+      {
+        id: 0,
+        titre: 'testTitre',
+        description: 'testdescription',
+        image: 'cookie',
+        date: '05 mai 2022',
+        auteur: 'tristan',
+        categorie: [
+          {
+            id: 0,
+            name: 'categorie1',
+          },
+          {
+            id: 1,
+            name: 'categorie2',
+          },
+        ],
+        links: [
+          {
+            name: 'titrelien',
+            link: 'lien',
+          },
+        ],
+      },
+    ],
   },
   mutations: {
   },

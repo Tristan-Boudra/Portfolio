@@ -27,7 +27,7 @@
             Titulaire d'un BTS SIO option SLAM, je suis actuellement en troisième année de Bachelor Développeur web et mobile à MydigitalSchool à Lyon. Je réalise cette formation en alternance au sein de l'entreprise ... en tant que ...<br>
             Avec mes projets de cours, personnels, ainsi que mes stages, j’ai pu apprendre:</div>
           <ul class="flex flex-row flex-wrap gap-2 mx-auto space-x-4 p-3 justify-center">
-            <li class="py-1 px-3 text-white text-sm rounded-md h-auto w-auto hover:transform hover:transition hover:duration-500 hover:scale-110" v-for="tech in this.langages.techno" v-bind:key="tech" :style="'background-color: #' + tech.color">{{ tech.name }}</li>
+            <li class="py-1 px-3 text-white text-sm rounded-md h-auto w-auto transition duration-500 hover:scale-110" v-for="tech in this.langages.techno" v-bind:key="tech" :style="'background-color: #' + tech.color">{{ tech.name }}</li>
           </ul>
         </div>
         <div class="p-2">
@@ -74,7 +74,7 @@
         <h2 class="text-3xl font-bold text-center mx-auto">Blog</h2>
         <p class="text-left p-6">J'ai décidé de créer un blog afin de partager mes connaissances ainsi que mes compétences afin que vous et moi puissions progresser ensemble et ainsi en apprendre davantage sur l'univers du développement web.<br>
           Vous y trouverez toutes sortes de sujets autant divers et variétés. En partant du début de la conception d'un site web, des conseils pendant le développement puis dans la finalisation d'un site et de la mise en production.</p>
-          <router-link to="/blog" class="bg-[#DA5759] p-2 rounded-lg text-[#000000] font-bold text-center w-auto h-auto tracking-widest mx-auto">Voir le blog</router-link>
+        <router-link to="/blog" class="bg-[#DA5759] p-2 rounded-lg text-[#000000] font-bold text-center w-auto h-auto tracking-widest mx-auto">Voir le blog</router-link>
       </div>
     </section>
     <section id="contact" class="max-w-screen-lg mx-auto bg-white">

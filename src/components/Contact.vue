@@ -21,7 +21,7 @@
       </div>
       <div class="relative z-0 mb-6 w-0 md:mx-10 ml-10">
         <input type="text" id="object" name="object" autocomplete="objet" v-model="object" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
-        <label for="object" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Object</label>
+        <label for="object" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Objet</label>
       </div>
       <div class="relative z-0 mb-6 w-0 md:mx-10 ml-10">
         <input type="text" id="email" name="email" autocomplete="email" v-model="email" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
