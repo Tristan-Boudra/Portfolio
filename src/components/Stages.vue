@@ -11,7 +11,7 @@
         <p class="mx-auto p-2">{{ data.context }}</p>
         <div class="flex flex-row space-x-2 flex-wrap mx-auto p-3">
           <div class="mt-5" v-for="allLink in data.links" v-bind:key="allLink">
-            <a class="bg-[#DA5759] p-2 rounded-lg text-[#000000] font-bold text-center w-32 h-14 tracking-widest mx-auto" :href="allLink.link">{{ allLink.linkName }}</a>
+            <a class="bg-amber-500 p-2 rounded-lg text-[#000000] font-bold text-center w-32 h-14 tracking-widest mx-auto" :href="allLink.link">{{ allLink.linkName }}</a>
           </div>
         </div>
       </div>

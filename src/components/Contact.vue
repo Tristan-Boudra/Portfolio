@@ -31,7 +31,11 @@
         <textarea name="message" id="message" cols="40" rows="10" v-model="message" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
         <label for="message" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
       </div>
-      <input class="md:col-span-2 mx-auto cursor-pointer mt-5 px-5 py-2 bg-[#DA5759] transition duration-200 text-[#000000] font-bold rounded-xl flex items-center w-fit" value="Envoyer" type="submit" name="" id="">
+      <div></div>
+      <div class="mt-10">
+        <p class="italic my-auto">Tous les champs sont obligatoires</p>
+      </div>
+      <input class="md:col-span-2 mx-auto cursor-pointer mt-5 px-5 py-2 bg-amber-500 transition duration-200 text-[#000000] font-bold rounded-xl flex items-center w-fit" value="Envoyer" type="submit" name="" id="">
     </form>
   </div>
 </template>
