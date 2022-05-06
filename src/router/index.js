@@ -1,10 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
-import Home2 from '../views/Home2.vue';
 import Projects from '../views/Projects.vue';
 import Realisation from '../views/Realisation.vue';
 import Veilles from '../views/Veilles.vue';
-import Stage from '../views/Stage.vue';
+import Blog from '../views/Blog.vue';
 import MentionsLegales from '../views/MentionsLegales.vue';
 
 const routes = [
@@ -12,11 +11,6 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
-  },
-  {
-    path: '/home2',
-    name: 'Home2',
-    component: Home2,
   },
   {
     path: '/projects',
@@ -34,14 +28,14 @@ const routes = [
     component: Veilles,
   },
   {
-    path: '/stage',
-    name: 'Stage',
-    component: Stage,
-  },
-  {
     path: '/mentionsLegales',
     name: 'MentionsLegales',
     component: MentionsLegales,
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: Blog,
   },
 ];
 

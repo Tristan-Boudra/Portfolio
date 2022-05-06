@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form @submit.prevent="submit" class="grid md:grid-cols-2 gap-6 p-6" novalidate="true">
+    <form @submit.prevent="submit" class="grid md:grid-cols-2 gap-6 md:p-auto" novalidate="true">
       <div class="md:col-span-2 grid gap-2">
         <div v-show="errors.length">
           <ul class="grid gap-2">
@@ -11,29 +11,25 @@
           <p class="bg-emerald-500 px-2 py-1 rounded duration-200">Message envoyé avec succès</p>
         </div>
       </div>
-      <div class="flex flex-col grid gap-2 md:w-auto md:mx-auto">
-        <label class="text-left p-2 text-lg font-bold text-[#333333] dark:text-[#FFFFFF]" for="name">Nom:</label>
-        <input class="px-2 py-1 border-2 border-[#333333] dark:bg-[#333333] dark:border-[#FFFFFF] rounded-lg border-white-500 transition duration-200 outline outline-transparent focus:border-[#DA5759] md:w-80"  type="text" id="name" name="name" autocomplete="name" v-model="name">
+      <div class="relative z-0 mb-6 w-0 md:mx-10 ml-10">
+        <input type="text" id="name" name="name" autocomplete="name" v-model="name" class="block sm:mx-auto py-2.5 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
+        <label for="name" class="absolute ml-0 text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nom</label>
       </div>
-      <div class="flex flex-col grid gap-2 md:w-auto md:mx-auto">
-        <label class="text-left p-2 text-lg font-bold text-[#333333] dark:text-[#FFFFFF]" for="surname">Prénom:</label>
-        <input class="px-2 py-1 border-2 border-[#333333] dark:bg-[#333333] dark:border-[#FFFFFF] rounded-lg border-white-500 transition duration-200 outline outline-transparent focus:border-[#DA5759] md:w-80" type="text" id="surname" name="surname" autocomplete="surname" v-model="surname">
+      <div class="relative z-0 mb-6 w-0 md:mx-10 ml-10">
+        <input type="text" id="surname" name="surname" autocomplete="surname" v-model="surname" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
+        <label for="surname" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Prénom</label>
       </div>
-      <div class="flex flex-col grid gap-2 md:w-auto md:mx-auto">
-        <label class="text-left p-2 text-lg font-bold text-[#333333] dark:text-[#FFFFFF]" for="object">Objet:</label>
-        <input class="px-2 py-1 border-2 border-[#333333] dark:bg-[#333333] dark:border-[#FFFFFF] rounded-lg border-white-500 transition duration-200 outline outline-transparent focus:border-[#DA5759] md:w-80" type="text" id="object" name="object" autocomplete="objet" v-model="object">
+      <div class="relative z-0 mb-6 w-0 md:mx-10 ml-10">
+        <input type="text" id="object" name="object" autocomplete="objet" v-model="object" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
+        <label for="object" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Objet</label>
       </div>
-      <div class="flex flex-col grid gap-2 md:w-auto md:mx-auto">
-        <label class="text-left p-2 text-lg font-bold text-[#333333] dark:text-[#FFFFFF]" for="email">Mail:</label>
-        <input class="px-2 py-1 border-2 border-[#333333] dark:bg-[#333333] dark:border-[#FFFFFF] rounded-lg border-white-500 transition duration-200 outline outline-transparent focus:border-[#DA5759] md:w-80" type="text" id="email" name="email" autocomplete="email" v-model="email">
+      <div class="relative z-0 mb-6 w-0 md:mx-10 ml-10">
+        <input type="text" id="email" name="email" autocomplete="email" v-model="email" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
+        <label for="email" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Mail</label>
       </div>
-      <div class="flex flex-col grid gap-2 md:w-auto md:mx-auto">
-        <label class="text-left p-2 text-lg font-bold text-[#333333] dark:text-[#FFFFFF]" for="message">Message:</label>
-        <textarea class="px-2 py-1 border-2 border-[#333333] dark:bg-[#333333] dark:border-[#FFFFFF] rounded-lg border-white-500 transition duration-200 outline outline-transparent focus:border-[#DA5759] md:w-80" name="message" id="message" cols="40" rows="10" v-model="message"></textarea>
-      </div>
-      <div></div>
-      <div class="flex flex-col grid gap-2 md:w-auto md:mx-auto mt-10">
-        <p class="italic my-auto">Tous les champs sont obligatoires</p>
+      <div class="relative z-0 mb-6 w-0 md:mx-10 ml-10">
+        <textarea name="message" id="message" cols="40" rows="10" v-model="message" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
+        <label for="message" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
       </div>
       <input class="md:col-span-2 mx-auto cursor-pointer mt-5 px-5 py-2 bg-[#DA5759] transition duration-200 text-[#000000] font-bold rounded-xl flex items-center w-fit" value="Envoyer" type="submit" name="" id="">
     </form>
