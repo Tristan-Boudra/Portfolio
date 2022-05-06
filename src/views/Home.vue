@@ -9,10 +9,10 @@
             <div class="p-5 md:pl-0 mt-10 mx-auto md:text-left"><span class="text-xl">Hello</span>👋<br>Je suis actuellement étudiant en Bachelor Développeur web et mobile à MyDigitalSchool à Lyon.</div>
             <div class="mt-10 px-5 flex flex-wrap gap-8 sm:mx-auto justify-center mx-auto md:justify-start text-[#333333]">
               <button class="bg-amber-500 p-2 rounded-lg text-[#000000] font-bold text-center w-32 h-14 tracking-widest transition duration-600"><a class="bg-transparent" href="/#presentation">Commencer</a></button>
-              <router-link class="border-2 border-[#333333] p-3 rounded-lg font-bold text-center tracking-widest text-[#333333] flex py-auto h-14" to="/projects">
+              <a class="border-2 border-[#333333] hover:border-amber-500 p-3 rounded-lg font-bold text-center tracking-widest text-[#333333] flex py-auto h-14" href="/#projects">
                 <p class="pr-2">Voir mes projets</p>
-                <i data-feather="arrow-right" class="stroke-[#333333]"></i>
-              </router-link>
+                <i data-feather="arrow-right" class="stroke-[#333333] hover:stroke-amber-500"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@
           <p class="text-left p-3">J'ai décidé de créer un blog afin de partager mes connaissances ainsi que mes compétences afin que vous et moi puissions progresser ensemble et ainsi en apprendre davantage sur l'univers du <span class="font-semibold">développement web.</span><br>
             Vous y trouverez toutes sortes de sujets autant divers et variétés. En partant du début de la <span class="font-semibold">conception</span> d'un site web, des conseils pendant le <span class="font-semibold">développement</span> puis dans la finalisation d'un site et de la <span class="font-semibold">mise en production.</span></p>
           <div class="">
-            <img alt="gif illustration blog" class="w-72 mx-auto">
+            <img src="@/assets/blog.svg" alt="image illustration blog" class="w-72 mx-auto">
           </div>
         </div>
         <router-link to="/blog" class="bg-[#333333] p-2 rounded-lg text-[#FFFFFF] font-bold text-center w-auto h-auto tracking-widest mx-auto">Voir les articles</router-link>

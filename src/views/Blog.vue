@@ -13,7 +13,7 @@
               <p class="font-semibold mt-3">Codeur, Développeur, Programmeur, bonne lecture !</p>
             </div>
             <div class="">
-              <img alt="gif illustration article" class="w-72 mx-auto">
+              <img src="@/assets/Articles.svg" alt="image illustration article" class="w-72 mx-auto">
             </div>
           </div>
         </div>
