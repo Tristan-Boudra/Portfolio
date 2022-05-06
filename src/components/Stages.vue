@@ -3,7 +3,7 @@
     <section class="">
       <div class="flex flex-col">
         <h1 class="text-2xl font-bold p-2 mb-5">{{ data.name }}</h1>
-        <img class="mx-auto w-6/12 rounded-lg mb-5 shadow-[0_5px_25px_-3px_rgba(0,0,0,0.2)] transition duration-500 hover:scale-110" v-if="this.data.img" :src="require(`@/assets/${data.img}.png`)" alt="image stages">
+        <img class="mx-auto w-6/12 rounded-lg mb-5 shadow-[0_5px_25px_-3px_rgba(0,0,0,0.2)] transition duration-500 hover:scale-110" v-if="this.data.img" :src="require(`@/assets/${data.img}.webp`)" alt="image stages">
         <p class="mx-auto p-2 mb-6">{{ data.description }}</p>
         <ul class="flex gap-2 flex-wrap mx-auto justify-center mb-3">
           <li class="py-1 px-3 text-white text-sm rounded-md transition duration-500 hover:scale-110" v-for="tech in data.techno" v-bind:key="tech" :style="'background-color: #' + tech.color">{{ tech.name }}</li>

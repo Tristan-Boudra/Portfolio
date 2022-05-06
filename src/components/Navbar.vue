@@ -6,7 +6,7 @@
           <img src="@/assets/Tristan_dark.svg" class="px-4 py-1" alt="logo">
         </a>
       </div>
-      <button type="button" @click="openNav = !openNav" class="p-2 sm:ml-0 lg:hidden">
+      <button aria-label="boutton hamburger" type="button" @click="openNav = !openNav" class="p-2 sm:ml-0 lg:hidden">
         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
         </svg>
@@ -14,9 +14,9 @@
       <div v-if="openNav" class="flex flex-col fixed z-30 inset-0 lg:hidden bg-white">
         <div class="flex flex-row h-16 max-w-screen-xl">
           <div class="flex items-center space-x-14 mx-auto">
-            <router-link to="/">
+            <a href="/">
               <img src="@/assets/Tristan_dark.svg" @click="openNav = !openNav" class="px-4 py-1" alt="logo">
-            </router-link>
+            </a>
           </div>
         </div>
         <div v-if="openNav" class="lg:hidden my-auto">

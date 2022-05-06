@@ -241,7 +241,7 @@ export default createStore({
       {
         id: 5,
         name: 'Vm-Automation',
-        img: 'vmAutomaton',
+        img: 'vmAutomation',
         description: 'Le projet VM-Automation doit répondre aux différentes exigences du client notamment que le site web doit être représentatif de son activité industriel',
         context: 'Projet Profesionnel',
         techno: [

@@ -8,8 +8,8 @@
         </div>
       <div class="">
         <ul class="flex flex-row mx-auto flex-wrap gap-4 justify-center p-4">
-          <li><a href="https://www.linkedin.com/in/tristan-boudra-a43b6918a/"><img class="w-14 flex" src="@/assets/linkedin.png" alt="linkedin"></a></li>
-          <li><a href="https://twitter.com/TristanBoudra"><img class="w-14 flex" src="@/assets/Twitter.png" alt="Twitter"></a></li>
+          <li><a href="https://www.linkedin.com/in/tristan-boudra-a43b6918a/"><img class="w-14 flex" src="@/assets/linkedin.webp" alt="linkedin"></a></li>
+          <li><a href="https://twitter.com/TristanBoudra"><img class="w-14 flex" src="@/assets/Twitter.webp" alt="Twitter"></a></li>
         </ul>
       </div>
       <p class="text-[#333333]">© Boudra Tristan {{ copyrightDate }} | <router-link to="/mentionsLegales">Mentions Légales</router-link> | Tous droits réservés</p>

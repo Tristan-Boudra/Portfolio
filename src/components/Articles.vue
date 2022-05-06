@@ -1,6 +1,6 @@
 <template>
   <div class="rounded-3xl shadow-[0_5px_25px_-3px_rgba(0,0,0,0.1)] hover:shadow-[0_5px_25px_-3px_rgba(0,0,0,0.3)] transition duration-500 hover:ease-in-out h-full">
-    <img class="mx-auto w-auto rounded-t-3xl mb-5 shadow-[0_5px_25px_-3px_rgba(0,0,0,0.2)] object-fill" v-if="this.data.image" :src="require(`@/assets/${data.image}.png`)" alt="image stages">
+    <img class="mx-auto w-auto rounded-t-3xl mb-5 shadow-[0_5px_25px_-3px_rgba(0,0,0,0.2)] object-fill" v-if="this.data.image" :src="require(`@/assets/${data.image}.webp`)" alt="image stages">
     <section class="p-5">
       <div class="flex flex-col">
         <div class="p-3 text-left">
