@@ -13,12 +13,12 @@
               <p class="font-semibold mt-3">Codeur, Développeur, Programmeur, bonne lecture !</p>
             </div>
             <div class="">
-              <img src="@/assets/Articles.svg" alt="image illustration article" class="w-72 mx-auto">
+              <img src="@/assets/Articles.svg" alt="image illustration article" class="w-72 h-auto mx-auto">
             </div>
           </div>
         </div>
       </div>
-      <div class="flex space-x-8 mx-auto justify-center py-16">
+      <div class="flex space-x-8 mx-auto justify-center py-16 max-w-screen-lg">
         <img class="flex-row w-20 h-1 md:w-52 lg:w-full mt-5 rounded-full" src="@/assets/Line_dark.png" alt="Ligne">
         <h2 class="font-bold text-xl md:text-3xl">Articles</h2>
         <img class="flex-row w-20 h-1 md:w-52 lg:w-full mt-5 rounded-full" src="@/assets/Line_dark.png" alt="Ligne">

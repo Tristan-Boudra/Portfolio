@@ -3,7 +3,7 @@
     <div class="flex h-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
       <div class="flex items-center space-x-14 mx-auto">
         <a href="/">
-          <img src="@/assets/Tristan_dark.svg" class="px-4 py-1" alt="logo">
+          <img src="@/assets/Tristan_dark.svg" class="px-4 py-1 w-auto h-auto" alt="logo">
         </a>
       </div>
       <button aria-label="boutton hamburger" type="button" @click="openNav = !openNav" class="p-2 sm:ml-0 lg:hidden">
@@ -15,7 +15,7 @@
         <div class="flex flex-row h-16 max-w-screen-xl">
           <div class="flex items-center space-x-14 mx-auto">
             <a href="/">
-              <img src="@/assets/Tristan_dark.svg" @click="openNav = !openNav" class="px-4 py-1" alt="logo">
+              <img src="@/assets/Tristan_dark.svg" @click="openNav = !openNav" class="px-4 py-1 w-auto h-auto" alt="logo">
             </a>
           </div>
         </div>

@@ -3,14 +3,14 @@
     <section class="">
       <div class="flex flex-col p-6">
         <h1 class="text-2xl font-bold p-2 mb-5">{{ data.name }}</h1>
-        <img class="mx-auto w-9/12 rounded-lg mb-5 shadow-[0_5px_25px_-3px_rgba(0,0,0,0.2)] transition duration-500 hover:ease-in-out hover:scale-110" v-if="this.data.img" :src="require(`@/assets/${data.img}.webp`)" alt="image projetcs">
+        <img class="mx-auto w-9/12 h-auto rounded-lg mb-5 shadow-[0_5px_25px_-3px_rgba(0,0,0,0.2)] transition duration-500 hover:ease-in-out hover:scale-110" v-if="this.data.img" :src="require(`@/assets/${data.img}.webp`)" alt="image projetcs">
         <p class="mx-auto p-2 mb-6">{{ data.description }}</p>
         <ul class="flex gap-2 flex-wrap mx-auto justify-center mb-3">
           <li class="py-1 px-3 text-white text-sm rounded-md transition duration-500 hover:scale-110" v-for="tech in data.techno" v-bind:key="tech" :style="'background-color: #' + tech.color">{{ tech.name }}</li>
         </ul>
         <p class="mx-auto p-2">{{ data.context }}</p>
-        <div class="flex flex-row space-x-2 flex-wrap mx-auto p-3">
-          <div class="mt-5" v-for="allLink in data.links" v-bind:key="allLink">
+        <div class="flex flex-row flex-wrap mx-auto p-3">
+          <div class="mt-5 p-1" v-for="allLink in data.links" v-bind:key="allLink">
             <a class="bg-amber-500 p-2 rounded-lg text-[#000000] font-bold text-center w-32 h-14 tracking-widest mx-auto" :href="allLink.link">{{ allLink.linkName }}</a>
           </div>
         </div>

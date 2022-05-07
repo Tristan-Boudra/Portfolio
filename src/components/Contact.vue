@@ -12,26 +12,38 @@
         </div>
       </div>
       <div class="relative z-0 mb-6 w-0 md:mx-10 ml-10">
-        <input type="text" id="name" name="name" autocomplete="name" v-model="name" class="block sm:mx-auto py-2.5 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
-        <label for="name" class="absolute ml-0 text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nom</label>
+        <input type="text" id="name" name="name" autocomplete="name" v-model="name" class="block sm:mx-auto py-2.5 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-amber-500 peer" placeholder=" " required />
+        <label for="name" class="absolute ml-0 text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nom</label>
       </div>
       <div class="relative z-0 mb-6 w-0 md:mx-10 ml-10">
-        <input type="text" id="surname" name="surname" autocomplete="surname" v-model="surname" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
-        <label for="surname" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Prénom</label>
+        <input type="text" id="surname" name="surname" autocomplete="surname" v-model="surname" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-amber-500 peer" placeholder=" " required />
+        <label for="surname" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Prénom</label>
       </div>
       <div class="relative z-0 mb-6 w-0 md:mx-10 ml-10">
-        <input type="text" id="object" name="object" autocomplete="objet" v-model="object" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
-        <label for="object" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Objet</label>
+        <input type="text" id="object" name="object" autocomplete="objet" v-model="object" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-amber-500 peer" placeholder=" " required />
+        <label for="object" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Objet</label>
       </div>
       <div class="relative z-0 mb-6 w-0 md:mx-10 ml-10">
-        <input type="text" id="email" name="email" autocomplete="email" v-model="email" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
-        <label for="email" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Mail</label>
+        <input type="text" id="email" name="email" autocomplete="email" v-model="email" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-amber-500 peer" placeholder=" " required />
+        <label for="email" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Mail</label>
       </div>
       <div class="relative z-0 mb-6 w-0 md:mx-10 ml-10">
-        <textarea name="message" id="message" cols="40" rows="10" v-model="message" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-[#DA5759] peer" placeholder=" " required />
-        <label for="message" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#DA5759] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+        <textarea name="message" id="message" cols="40" rows="10" v-model="message" class="block py-2.5 px-0 w-72 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#333333] appearance-none focus:outline-none focus:ring-0 focus:border-amber-500 peer" placeholder=" " required />
+        <label for="message" class="absolute text font-bold text-[#333333] duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-amber-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
       </div>
-      <div></div>
+      <div class="flex flex-col gap-5 p-5">
+        <div class="rounded-lg w-60 md:w-72 shadow-[0_5px_25px_-3px_rgba(0,0,0,0.1)] m-auto hover:scale-105 ease-in-out transition duration-200">
+          <p class="p-2">Vous souhaitez me contacter ? Utilisez le formulaire ci-contre </p>
+        </div>
+        <div class="rounded-lg w-60 md:w-72 shadow-[0_5px_25px_-3px_rgba(0,0,0,0.1)] m-auto hover:scale-105 ease-in-out transition duration-200">
+          <p class="p-2">Vous pouvez également me contacter via l’adresse mail suivante :<br>boudratristan@gmail.com</p>
+        </div>
+        <div class="w-16 md:w-20 flex ml-auto">
+          <div class="bg-amber-500 rounded-full w-16 md:w-20 h-16 md:h-20">
+            <img src="@/assets/Tristan.webp" class="rounded-full w-20 my-auto" alt="Image de profile dans contact">
+          </div>
+        </div>
+      </div>
       <div class="mt-10">
         <p class="italic my-auto">Tous les champs sont obligatoires</p>
       </div>
