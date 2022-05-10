@@ -8,7 +8,7 @@
             <div class="text-7xl font-black md:text-left pb-10 animate-move-bg bg-gradient-to-r from-red-400 via-yellow-500 to-red-400 bg-[length:400%] bg-clip-text text-transparent">Boudra<br>Tristan</div>
             <div class="p-5 md:pl-0 mt-10 mx-auto md:text-left"><span class="text-xl">Hello</span>👋<br>Je suis actuellement étudiant en Bachelor Développeur web et mobile à MyDigitalSchool à Lyon.</div>
             <div class="mt-10 px-5 flex flex-wrap gap-8 sm:mx-auto justify-center mx-auto md:justify-start text-[#333333]">
-              <button class="bg-amber-500 p-2 rounded-lg text-[#000000] font-bold text-center w-32 h-14 tracking-widest transition duration-600"><a class="bg-transparent" href="/#presentation">Commencer</a></button>
+              <button class="bg-amber-500 p-2 rounded-lg text-[#000000] font-bold text-center w-32 h-14 tracking-widest transition duration-600"><a class="bg-transparent" href="/#debut">Commencer</a></button>
               <a class="border-2 border-[#333333] hover:border-amber-500 p-3 rounded-lg font-bold text-center tracking-widest text-[#333333] flex py-auto h-14" href="/#projects">
                 <p class="pr-2">Voir mes projets</p>
                 <i data-feather="arrow-right" class="stroke-[#333333] hover:stroke-amber-500"></i>
@@ -27,7 +27,7 @@
       </div>
     </section>
     <section id="debut" class="mx-auto bg-amber-50">
-      <div class="flex text-[#FFFFFF] gap-4 flex-col md:flex-row md:p-5 max-w-screen-lg mx-auto">
+      <div class="flex text-[#FFFFFF] gap-4 flex-col md:flex-row md:p-5 max-w-screen-lg mx-auto py-16">
         <div class="flex flex-col text-[#333333]">
           <div class="flex-row text-left w-30 mx-auto p-10 lg:pl-0">
             Titulaire d'un BTS SIO option SLAM, je suis actuellement en troisième année de Bachelor Développeur web et mobile à MydigitalSchool à Lyon. Je réalise cette formation en alternance au sein de l'entreprise ... en tant que ...<br>

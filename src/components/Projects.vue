@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-lg shadow-[0_5px_25px_-3px_rgba(0,0,0,0.1)] hover:shadow-[0_5px_25px_-3px_rgba(0,0,0,0.3)] transition duration-500 hover:ease-in-out h-full">
+  <!-- <div class="rounded-lg shadow-[0_5px_25px_-3px_rgba(0,0,0,0.1)] hover:shadow-[0_5px_25px_-3px_rgba(0,0,0,0.3)] transition duration-500 hover:ease-in-out h-full">
     <section class="">
       <div class="flex flex-col p-6">
         <h1 class="text-2xl font-bold p-2 mb-5">{{ data.name }}</h1>
@@ -16,10 +16,44 @@
         </div>
       </div>
     </section>
-  </div>
+  </div> -->
+    <div class="w-10 h-10 rounded-full bg-amber-500"></div>
+    <div class="rounded-lg shadow-[0_5px_25px_-3px_rgba(0,0,0,0.1)] h-full max-w-screen-lg mx-auto p-3">
+      <div class="flex flex-col">
+        <h3>Titre</h3>
+        <div class="flex flex-row">
+          <i data-feather="arrow-right" class="stroke-[#333333] hover:stroke-amber-500"></i>
+          <p>description</p>
+        </div>
+        <div class="flex flex-row">
+          <i data-feather="arrow-right" class="stroke-[#333333] hover:stroke-amber-500"></i>
+          <p>projet personnel</p>
+        </div>
+      </div>
+      <div class="mx-auto w-96 h-px bg-[#333333] rounded-lg"></div>
+      <div class="flex flex-row gap-6">
+        <div>
+          <p>techno</p>
+          <ul class="flex flex-row">
+            <li>html</li>
+            <li>html</li>
+          </ul>
+        </div>
+        <div>
+          <p>liens</p>
+          <ul class="flex flex-row">
+            <li>github</li>
+            <li>site</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 </template>
 
 <script>
+import feather from 'feather-icons';
+
+feather.replace();
 export default {
   props: ['data'],
 };
