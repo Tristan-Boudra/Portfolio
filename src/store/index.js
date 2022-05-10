@@ -120,6 +120,8 @@ export default createStore({
         img: 'home',
         description: 'Dans ce portfolio vous retrouverez l ensemble des mes réalisations.',
         context: 'Projet personnel',
+        color: 'FF5655',
+        initiale: 'P',
         techno: [
           {
             name: 'HTML',
@@ -151,6 +153,7 @@ export default createStore({
         img: 'covoit',
         description: 'Il s’agit d’un projet consistant à réaliser une web app de covoiturage adapté au mobile et au PC; le but: définir un point de départ et d arrivée et choisir les autres utilisateurs que l’on veut prendre sur notre passage ou inversement et trouver un conducteur pour aller la on l’on souhaite.',
         context: 'Projet de cours',
+        color: 'A9DD8E',
         techno: [
           {
             name: 'HTML',
@@ -194,6 +197,7 @@ export default createStore({
         img: 'CovoitAdmin',
         description: 'Il s’agit d’un projet consistant à réaliser une application en C# avec l’aide de WPF, permettant de changer toutes les informations de mon application Covoit.',
         context: 'Projet de cours',
+        color: '30A4A7',
         techno: [
           {
             name: 'C#',
@@ -217,6 +221,7 @@ export default createStore({
         img: 'kathekon',
         description: 'L entreprise Kathekon est spécialiser dans le conseil en RSE (Responsabilité Societale de l entreprise). De ce faite, le site est en adéquation avec les valeurs que veulent faire véhiculer les responsables de Kathekon.',
         context: 'Projet profesionnel',
+        color: 'F0CF50',
         techno: [
           {
             name: 'Oxygen',
@@ -244,6 +249,7 @@ export default createStore({
         img: 'vmAutomation',
         description: 'Le projet VM-Automation doit répondre aux différentes exigences du client notamment que le site web doit être représentatif de son activité industriel',
         context: 'Projet Profesionnel',
+        color: '7083BA',
         techno: [
           {
             name: 'Oxygen',

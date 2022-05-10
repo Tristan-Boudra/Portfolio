@@ -57,7 +57,7 @@
     <section id="projects" class="max-w-screen-lg mx-auto bg-white">
       <div class="max-w-screen-lg mx-auto px-10 py-16 mt-20 grid gap-12 text-[#333333]">
         <h2 class="text-3xl font-bold text-center mx-auto">Mes projets</h2>
-        <div class="grid md:grid-cols-2 gap-8">
+        <div class="grid md:grid-cols-2 gap-16">
           <div v-for="row in Projects" v-bind:key="row">
             <Projects :data="row"/>
           </div>
