@@ -33,7 +33,7 @@
             Titulaire d'un BTS SIO option SLAM, je suis actuellement en troisième année de Bachelor Développeur web et mobile à MydigitalSchool à Lyon. Je réalise cette formation en alternance au sein de l'entreprise ... en tant que ...<br>
             Avec mes projets de cours, personnels, ainsi que mes stages, j’ai pu apprendre:</div>
           <ul class="flex flex-row flex-wrap gap-2 mx-auto space-x-4 p-3 justify-center">
-            <li class="py-1 px-3 text-white text-sm rounded-md h-auto w-auto transition duration-500 hover:scale-110" v-for="tech in this.langages.techno" v-bind:key="tech" :style="'background-color: #' + tech.color">{{ tech.name }}</li>
+            <li class="py-1 px-3 text-white text-sm rounded-md h-auto w-auto transition duration-500 hover:scale-110" v-for="tech in this.langages.techno" v-bind:key="tech" :style="'background-color: #' + tech.color + '; color: #' + ContrastedColor(tech.color) + ';'">{{ tech.name }}</li>
           </ul>
         </div>
         <div class="p-2">
@@ -57,7 +57,7 @@
     <section id="projects" class="max-w-screen-lg mx-auto bg-white">
       <div class="max-w-screen-lg mx-auto px-5 py-16 mt-20 grid gap-12 text-[#333333]">
         <h2 class="text-3xl font-bold text-center mx-auto">Mes projets</h2>
-        <div class="grid md:grid-cols-2 gap-16">
+        <div class="grid md:grid-cols-2 gap-16 mt-10">
           <div v-for="row in Projects" v-bind:key="row">
             <Projects :data="row"/>
           </div>
@@ -68,7 +68,7 @@
       <div class="max-w-screen-lg mx-auto px-10 py-16 mt-20 text-[#333333]">
         <h2 class="text-3xl font-bold text-center mx-auto">Stage</h2>
         <p class="p-5 w-auto mx-auto mt-10">Durant mon BTS SIO, j'ai eu l'opportunité de réaliser 2 stages différents, pour une durer totale de 10 semaines.</p>
-        <div class="grid md:grid-cols-2 gap-8 mt-10">
+        <div class="grid md:grid-cols-2 gap-8 mt-20">
           <div v-for="row in Stages" v-bind:key="row">
             <Stages :data="row"/>
           </div>
@@ -134,6 +134,22 @@ export default {
     },
   },
   methods: {
+    ContrastedColor(hexcolorParam) {
+      // If a leading # is provided, remove it
+      let hexcolor = hexcolorParam;
+      if (hexcolor.slice(0, 1) === '#') {
+        hexcolor = hexcolorParam.slice(1);
+      }
+      // Convert to RGB value
+      const r = parseInt(hexcolor.substr(0, 2), 16);
+      const g = parseInt(hexcolor.substr(2, 2), 16);
+      const b = parseInt(hexcolor.substr(4, 2), 16);
+      // Get YIQ ratio
+      // const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+      const yiq = ((r * 350) + (g * 587) + (b * 114)) / 1000;
+      // Check contrast
+      return (yiq >= 128) ? '000' : 'fff';
+    },
     Technologie() {
       const langage = this.$store.state.langages;
       langage.forEach((langages) => {

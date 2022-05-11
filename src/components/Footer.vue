@@ -11,8 +11,8 @@
           <div class="p-5 w-96">
             <h3 class="text-lg hover:text-amber-500 font-semibold">Me contacter</h3>
             <ul class="flex flex-row mx-auto flex-wrap gap-4 justify-center p-4">
-              <li><i data-feather="linkedin" class="stroke-[#333333] hover:stroke-amber-500"></i></li>
-              <li><i data-feather="twitter" class="stroke-[#333333] hover:stroke-amber-500"></i></li>
+              <li><i data-feather="linkedin" class="stroke-[#333333] hover:stroke-amber-500 cursor-pointer"></i></li>
+              <li><i data-feather="twitter" class="stroke-[#333333] hover:stroke-amber-500 cursor-pointer"></i></li>
               <li><a href="/#contact"><i data-feather="mail" class="stroke-[#333333] hover:stroke-amber-500"></i></a></li>
             </ul>
           </div>
@@ -27,7 +27,7 @@
             </ul>
           </div>
         </div>
-        <p class="text-[#333333]">© Boudra Tristan {{ copyrightDate }} | <router-link to="/mentionsLegales">Mentions Légales</router-link> | Tous droits réservés</p>
+        <p class="text-[#333333]">© Boudra Tristan {{ copyrightDate }} | <router-link to="/mentionsLegales" class="hover:text-amber-500 hover:font-bold">Mentions Légales</router-link> | Tous droits réservés</p>
       </div>
     </footer>
   </div>

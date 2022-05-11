@@ -8,71 +8,77 @@ export default createStore({
         techno: [
           {
             name: 'HTML',
-            color: '9f3519',
+            color: 'DC4A25',
           },
           {
             name: 'CSS',
-            color: '2147d7',
+            color: '264BDD',
           },
           {
             name: 'JavaScript',
-            color: '6b5700',
+            color: 'EFD81D',
           },
           {
             name: 'PHP',
-            color: '434aa1',
+            color: '7377AD',
           },
           {
             name: 'MySql',
-            color: '775113',
+            color: 'DD8901',
           },
           {
             name: 'TailwindCSS',
-            color: '005f89',
+            color: '05AFCE',
           },
           {
             name: 'VueJs',
-            color: '27642e',
+            color: '3EB27F',
           },
           {
             name: 'C#',
-            color: '4A1163',
+            color: '66027C',
           },
           {
             name: 'Wordpress',
-            color: '265f79',
+            color: '166D92',
           },
           {
             name: 'Oxygen',
-            color: '281E75',
+            color: '301C8B',
           },
           {
             name: 'WooCommerce',
-            color: '6c459c',
+            color: '7B51AD',
+          },
+          {
+            name: 'Publisher',
+            color: '017174',
           },
         ],
       },
     ],
     stages: [
       {
-        id: 1,
+        id: 0,
         name: 'Les Jardins de Brogieux',
         img: 'jardins_brogieux',
-        description: 'Stage de 1ère année de BTS SIO, j ai réaliser l ajout de contenu sur leur site web et les réseaux sociaux. Je me suis occuper également de créer une application afin de rendre les visites plus attrayante.',
+        description: 'Stage de 1ère année de BTS SIO, j\'ai réaliser l\'ajout de contenu sur le site, réseaux sociaux. Je me suis occuper également de créer une application afin de rendre les visites plus attrayante.',
         context: 'Stage professionel',
+        color: '6C7B21',
+        initiale: 'J',
         techno: [
           {
             name: 'Wordpress',
-            color: '006E9F',
+            color: '166D92',
           },
           {
             name: 'Publisher',
-            color: '077064',
+            color: '017174',
           },
         ],
         links: [
           {
-            linkName: 'Website',
+            linkName: 'Jardins Brogieux',
             link: 'https://www.les-jardins-de-brogieux.fr/',
           },
           {
@@ -86,11 +92,13 @@ export default createStore({
         ],
       },
       {
-        id: 2,
+        id: 1,
         name: 'Web At Heart',
         img: 'web-at-heart',
         description: 'Stage de 2ème année de BTS SIO, j ai réaliser le design et le développement de sites vitrines et de e-commerce.',
         context: 'Stage professionel',
+        color: 'F23D4F',
+        initiale: 'W',
         techno: [
           {
             name: 'Wordpress',
@@ -98,7 +106,7 @@ export default createStore({
           },
           {
             name: 'Oxygen',
-            color: '281E75',
+            color: '301C8B',
           },
         ],
         links: [
@@ -125,15 +133,15 @@ export default createStore({
         techno: [
           {
             name: 'HTML',
-            color: '9f3519',
+            color: 'DC4A25',
           },
           {
             name: 'TailwindCSS',
-            color: '005f89',
+            color: '05AFCE',
           },
           {
             name: 'VueJs',
-            color: '27642e',
+            color: '3EB27F',
           },
         ],
         links: [
@@ -158,27 +166,27 @@ export default createStore({
         techno: [
           {
             name: 'HTML',
-            color: '9f3519',
+            color: 'DC4A25',
           },
           {
             name: 'TailwindCSS',
-            color: '005f89',
+            color: '05AFCE',
           },
           {
             name: 'VueJs',
-            color: '27642e',
-          },
-          {
-            name: 'PHP',
-            color: '434aa1',
-          },
-          {
-            name: 'MySql',
-            color: '775113',
+            color: '3EB27F',
           },
           {
             name: 'JavaScript',
-            color: '6b5700',
+            color: 'EFD81D',
+          },
+          {
+            name: 'PHP',
+            color: '7377AD',
+          },
+          {
+            name: 'MySql',
+            color: 'DD8901',
           },
         ],
         links: [
@@ -203,11 +211,11 @@ export default createStore({
         techno: [
           {
             name: 'C#',
-            color: '4A1163',
+            color: '66027C',
           },
           {
             name: 'MySql',
-            color: '775113',
+            color: 'DD8901',
           },
         ],
         links: [
@@ -227,12 +235,12 @@ export default createStore({
         initiale: 'K',
         techno: [
           {
-            name: 'Oxygen',
-            color: '281E75',
+            name: 'Wordpress',
+            color: '006E9F',
           },
           {
-            name: 'Wordpress',
-            color: '265f79',
+            name: 'Oxygen',
+            color: '301C8B',
           },
         ],
         links: [
@@ -256,12 +264,12 @@ export default createStore({
         initiale: 'V',
         techno: [
           {
-            name: 'Oxygen',
-            color: '281E75',
+            name: 'Wordpress',
+            color: '006E9F',
           },
           {
-            name: 'Wordpress',
-            color: '265f79',
+            name: 'Oxygen',
+            color: '301C8B',
           },
         ],
         links: [
