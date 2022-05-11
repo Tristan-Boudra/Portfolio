@@ -55,7 +55,7 @@
       </div>
     </section>
     <section id="projects" class="max-w-screen-lg mx-auto bg-white">
-      <div class="max-w-screen-lg mx-auto px-10 py-16 mt-20 grid gap-12 text-[#333333]">
+      <div class="max-w-screen-lg mx-auto px-5 py-16 mt-20 grid gap-12 text-[#333333]">
         <h2 class="text-3xl font-bold text-center mx-auto">Mes projets</h2>
         <div class="grid md:grid-cols-2 gap-16">
           <div v-for="row in Projects" v-bind:key="row">
@@ -67,7 +67,7 @@
     <section id="stages" class="max-w-screen-lg mx-auto bg-white">
       <div class="max-w-screen-lg mx-auto px-10 py-16 mt-20 text-[#333333]">
         <h2 class="text-3xl font-bold text-center mx-auto">Stage</h2>
-        <p class="p-5 w-auto mx-auto mt-10">Durant mon BTS SIO, j'ai eu l'opportunité de réaliser 2 stages, pour une durer totale de 10 semaines.</p>
+        <p class="p-5 w-auto mx-auto mt-10">Durant mon BTS SIO, j'ai eu l'opportunité de réaliser 2 stages différents, pour une durer totale de 10 semaines.</p>
         <div class="grid md:grid-cols-2 gap-8 mt-10">
           <div v-for="row in Stages" v-bind:key="row">
             <Stages :data="row"/>

@@ -118,7 +118,7 @@ export default createStore({
         id: 1,
         name: 'Portfolio',
         img: 'home',
-        description: 'Dans ce portfolio vous retrouverez l ensemble des mes réalisations.',
+        description: 'Portfolio permettant de regrouper tous mes projets personnels et professionel, ainsi qu\'une partie blog.',
         context: 'Projet personnel',
         color: 'FF5655',
         initiale: 'P',
@@ -151,9 +151,10 @@ export default createStore({
         id: 2,
         name: 'Covoit',
         img: 'covoit',
-        description: 'Il s’agit d’un projet consistant à réaliser une web app de covoiturage adapté au mobile et au PC; le but: définir un point de départ et d arrivée et choisir les autres utilisateurs que l’on veut prendre sur notre passage ou inversement et trouver un conducteur pour aller la on l’on souhaite.',
+        description: 'Application de covoiturage permettant de rejoindre ou de créer un voyage partout en France.',
         context: 'Projet de cours',
         color: 'A9DD8E',
+        initiale: 'C',
         techno: [
           {
             name: 'HTML',
@@ -195,9 +196,10 @@ export default createStore({
         id: 3,
         name: 'CovoitAdmin',
         img: 'CovoitAdmin',
-        description: 'Il s’agit d’un projet consistant à réaliser une application en C# avec l’aide de WPF, permettant de changer toutes les informations de mon application Covoit.',
+        description: 'Gestion administrative des utilisateurs, véhicules, motorisations de l\'application Covoit.',
         context: 'Projet de cours',
         color: '30A4A7',
+        initiale: 'C',
         techno: [
           {
             name: 'C#',
@@ -219,9 +221,10 @@ export default createStore({
         id: 4,
         name: 'Kathekon',
         img: 'kathekon',
-        description: 'L entreprise Kathekon est spécialiser dans le conseil en RSE (Responsabilité Societale de l entreprise). De ce faite, le site est en adéquation avec les valeurs que veulent faire véhiculer les responsables de Kathekon.',
+        description: 'Site vitrine pour une entreprise spécialisé dans le conseil en RSE.',
         context: 'Projet profesionnel',
         color: 'F0CF50',
+        initiale: 'K',
         techno: [
           {
             name: 'Oxygen',
@@ -247,9 +250,10 @@ export default createStore({
         id: 5,
         name: 'Vm-Automation',
         img: 'vmAutomation',
-        description: 'Le projet VM-Automation doit répondre aux différentes exigences du client notamment que le site web doit être représentatif de son activité industriel',
+        description: 'Site vitrine pour une entreprise spécialisé dans la maintenance industrielle.',
         context: 'Projet Profesionnel',
         color: '7083BA',
+        initiale: 'V',
         techno: [
           {
             name: 'Oxygen',
