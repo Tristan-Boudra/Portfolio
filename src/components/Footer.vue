@@ -27,7 +27,7 @@
             </ul>
           </div>
         </div>
-        <p class="text-[#333333]">© Boudra Tristan {{ copyrightDate }} | <router-link to="/mentionsLegales" class="hover:text-amber-500 hover:font-bold">Mentions Légales</router-link> | Tous droits réservés</p>
+        <p class="text-[#333333]">© Boudra Tristan {{ copyrightDate }} | <a href="/mentionsLegales" class="hover:text-amber-500 hover:font-bold">Mentions Légales</a> | Tous droits réservés</p>
       </div>
     </footer>
   </div>

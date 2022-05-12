@@ -9,6 +9,10 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
+    meta: {
+      title: 'MentionsLegales',
+      transition: 'slide-right',
+    },
   },
   {
     path: '/projects',
@@ -19,11 +23,19 @@ const routes = [
     path: '/mentionsLegales',
     name: 'MentionsLegales',
     component: MentionsLegales,
+    meta: {
+      title: 'MentionsLegales',
+      transition: 'slide-left',
+    },
   },
   {
     path: '/blog',
     name: 'Blog',
     component: Blog,
+    meta: {
+      title: 'Blog',
+      transition: 'slide-left',
+    },
   },
 ];
 

@@ -6,7 +6,7 @@
         <div class="max-w-screen-lg mx-auto">
           <h1 class="font-bold text-2xl md:text-4xl p-5">Blog</h1>
           <div class="grid md:grid-cols-2">
-            <div class="text-left py-10">
+            <div class="text-left p-10">
               <p class="mt-3">Vous retrouverez tous les articles concernant le <span class="font-semibold">développement web</span>.</p>
               Tu y retrouveras des articles complets sur divers sujets.<br/>
               Le contenu des articles sont fait pour qu'un public large puissent les lires.<br/>

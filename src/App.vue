@@ -1,10 +1,11 @@
 <template>
-    <router-view/>
+  <router-view/>
 </template>
 
 <style>
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 #app {
@@ -12,16 +13,5 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  /* color: #FFFFFF; */
-}
-
-#nav {
-  padding: 30px;
-  color: #FFFFFF;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #FFFFFF;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="static rounded-lg shadow-[0_5px_25px_-3px_rgba(0,0,0,0.1)] hover:shadow-[0_5px_25px_-3px_rgba(0,0,0,0.2)] transition duration-500 hover:ease-in-out h-full max-w-screen-lg mx-auto px-5 py-4">
-    <div class="absolute ml-3 md:ml-2 -mt-11">
-      <div class="rounded-full w-14 h-14 md:h-16 md:w-16 flex shadow-[0_15px_25px_0px_rgba(0,0,0,0.2)]" :style="'background-color: #' + data.color">
+    <div class="absolute ml-3 md:ml-2 -mt-14 md:-mt-11">
+      <div class="rounded-full w-14 h-14 md:h-16 md:w-16 flex shadow-[0_15px_25px_0px_rgba(0,0,0,0.2)]" :style="'background-color: #' + data.color + ';'">
         <p class="font-bold text-2xl rounded-full w-20 my-auto">{{ data.initiale }}</p>
       </div>
     </div>
@@ -23,7 +23,7 @@
       <div class="w-3/5">
         <p class="font-semibold">Technologies utilisées</p>
         <ul class="flex gap-2 flex-wrap mx-auto justify-center mt-3 w-auto">
-          <li class="py-1 px-3 text-white text-sm rounded-md transition duration-500 hover:scale-110 w-auto p-2" v-for="tech in data.techno" v-bind:key="tech" :style="'background-color: #' + tech.color + '; color: #' + ContrastedColor(tech.color) + ';'">{{ tech.name }}</li>
+          <li class="py-1 px-3 text-white text-sm rounded-md transition duration-500 hover:scale-110 w-auto p-2" v-for="tech in data.techno" v-bind:key="tech" :style="'background-color: #' + tech.color + '; color: #' + ContrastedColor(tech.color) + '; '">{{ tech.name }}</li>
         </ul>
       </div>
       <div class="w-2/5">
@@ -54,7 +54,6 @@ export default {
       const g = parseInt(hexcolor.substr(2, 2), 16);
       const b = parseInt(hexcolor.substr(4, 2), 16);
       // Get YIQ ratio
-      // const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
       const yiq = ((r * 350) + (g * 587) + (b * 114)) / 1000;
       // Check contrast
       return (yiq >= 128) ? '000' : 'fff';

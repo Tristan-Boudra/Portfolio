@@ -17,6 +17,35 @@
           </div>
         </div>
         <div class="flex-col md:order-0">
+          <div class="absolute mt-20 ml-5">
+            <svg width="93" height="93" viewBox="0 0 93 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="2.5" cy="2.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="2.5" cy="24.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="2.5" cy="46.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="2.5" cy="68.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="2.5" cy="90.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="24.5" cy="2.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="24.5" cy="24.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="24.5" cy="46.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="24.5" cy="68.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="24.5" cy="90.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="46.5" cy="2.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="46.5" cy="24.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="46.5" cy="46.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="46.5" cy="68.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="46.5" cy="90.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="68.5" cy="2.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="68.5" cy="24.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="68.5" cy="46.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="68.5" cy="68.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="68.5" cy="90.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="90.5" cy="2.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="90.5" cy="24.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="90.5" cy="46.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="90.5" cy="68.5" r="2.5" fill="#F59E0B"/>
+              <circle cx="90.5" cy="90.5" r="2.5" fill="#F59E0B"/>
+            </svg>
+          </div>
           <img class="m-auto rounded-3xl mt-24 w-56 sm:w-72 h-auto md:w-80 lg:w-96" src="@/assets/Tristan.webp" alt="Image de profile">
         </div>
       </div>
@@ -68,7 +97,7 @@
       <div class="max-w-screen-lg mx-auto px-10 py-16 mt-20 text-[#333333]">
         <h2 class="text-3xl font-bold text-center mx-auto">Stage</h2>
         <p class="p-5 w-auto mx-auto mt-10">Durant mon BTS SIO, j'ai eu l'opportunité de réaliser 2 stages différents, pour une durer totale de 10 semaines.</p>
-        <div class="grid md:grid-cols-2 gap-8 mt-20">
+        <div class="grid md:grid-cols-2 gap-16 mt-20">
           <div v-for="row in Stages" v-bind:key="row">
             <Stages :data="row"/>
           </div>
@@ -85,7 +114,7 @@
             <img src="@/assets/blog.svg" alt="image illustration blog" class="w-72 h-auto mx-auto">
           </div>
         </div>
-        <router-link to="/blog" class="bg-[#333333] p-2 rounded-lg text-[#FFFFFF] font-bold text-center w-auto h-auto tracking-widest mx-auto">Voir les articles</router-link>
+        <a href="/blog" class="bg-[#333333] p-2 rounded-lg text-[#FFFFFF] font-bold text-center w-auto h-auto tracking-widest mx-auto">Voir les articles</a>
       </div>
     </section>
     <section id="contact" class="max-w-screen-lg mx-auto bg-white">
@@ -145,7 +174,6 @@ export default {
       const g = parseInt(hexcolor.substr(2, 2), 16);
       const b = parseInt(hexcolor.substr(4, 2), 16);
       // Get YIQ ratio
-      // const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
       const yiq = ((r * 350) + (g * 587) + (b * 114)) / 1000;
       // Check contrast
       return (yiq >= 128) ? '000' : 'fff';
