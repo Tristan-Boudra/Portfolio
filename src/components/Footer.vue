@@ -13,7 +13,7 @@
             <ul class="flex flex-row mx-auto flex-wrap gap-4 justify-center p-4">
               <li><i data-feather="linkedin" class="stroke-[#333333] hover:stroke-amber-500 cursor-pointer"></i></li>
               <li><i data-feather="twitter" class="stroke-[#333333] hover:stroke-amber-500 cursor-pointer"></i></li>
-              <li><a href="/#contact"><i data-feather="mail" class="stroke-[#333333] hover:stroke-amber-500"></i></a></li>
+              <li><a href="/#contact" aria-label="formulaire contact"><i data-feather="mail" class="stroke-[#333333] hover:stroke-amber-500"></i></a></li>
             </ul>
           </div>
           <div class="p-5 w-96">

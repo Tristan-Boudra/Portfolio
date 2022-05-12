@@ -8,7 +8,7 @@ export default createStore({
         techno: [
           {
             name: 'HTML',
-            color: 'DC4A25',
+            color: '9f3519',
           },
           {
             name: 'CSS',
@@ -28,7 +28,7 @@ export default createStore({
           },
           {
             name: 'TailwindCSS',
-            color: '05AFCE',
+            color: '005f89',
           },
           {
             name: 'VueJs',
@@ -133,11 +133,11 @@ export default createStore({
         techno: [
           {
             name: 'HTML',
-            color: 'DC4A25',
+            color: '9f3519',
           },
           {
             name: 'TailwindCSS',
-            color: '05AFCE',
+            color: '005f89',
           },
           {
             name: 'VueJs',
@@ -166,11 +166,11 @@ export default createStore({
         techno: [
           {
             name: 'HTML',
-            color: 'DC4A25',
+            color: '9f3519',
           },
           {
             name: 'TailwindCSS',
-            color: '05AFCE',
+            color: '005f89',
           },
           {
             name: 'VueJs',
