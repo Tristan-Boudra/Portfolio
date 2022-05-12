@@ -18,6 +18,10 @@ const routes = [
     path: '/projects',
     name: 'Projects',
     component: Projects,
+    meta: {
+      title: 'Projects',
+      transition: 'slide-right',
+    },
   },
   {
     path: '/mentionsLegales',

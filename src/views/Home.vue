@@ -114,7 +114,7 @@
             <img src="@/assets/blog.svg" alt="image illustration blog" class="w-72 h-auto mx-auto">
           </div>
         </div>
-        <a href="/blog" class="bg-[#333333] p-2 rounded-lg text-[#FFFFFF] font-bold text-center w-auto h-auto tracking-widest mx-auto">Voir les articles</a>
+        <router-link to="/blog" class="bg-[#333333] p-2 rounded-lg text-[#FFFFFF] font-bold text-center w-auto h-auto tracking-widest mx-auto">Voir les articles</router-link>
       </div>
     </section>
     <section id="contact" class="max-w-screen-lg mx-auto bg-white">
