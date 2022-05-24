@@ -29,7 +29,7 @@
       <div class="w-2/5">
         <p class="font-semibold">Liens</p>
         <ul class="flex gap-2 flex-wrap mx-auto justify-center mt-3 w-auto">
-          <li class="py-1 px-3 text-[#333333] bg-amber-500 font-bold text-sm rounded-md transition duration-500 hover:scale-110 w-auto p-2" v-for="allLink in data.links" v-bind:key="allLink"><a :href="allLink.link">{{ allLink.linkName }}</a></li>
+          <li class="py-1 px-3 text-[#333333] bg-amber-500 font-bold text-sm rounded-md transition duration-500 hover:scale-110 w-auto p-2" v-for="allLink in data.links" v-bind:key="allLink"><a :href="allLink.link" target="_blank">{{ allLink.linkName }}</a></li>
         </ul>
       </div>
     </div>

@@ -61,7 +61,7 @@ html {
 
 .slide-left-leave-from{
   position: absolute;
-  transform: translateX(-100%);
+  transform: translateX(0%);
 }
 
 .slide-left-leave-to {

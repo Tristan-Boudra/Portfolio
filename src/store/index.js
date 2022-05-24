@@ -15,8 +15,24 @@ export default createStore({
             color: '264BDD',
           },
           {
+            name: 'TailwindCSS',
+            color: '005f89',
+          },
+          {
             name: 'JavaScript',
             color: 'EFD81D',
+          },
+          {
+            name: 'VueJs',
+            color: '3EB27F',
+          },
+          {
+            name: 'Angular',
+            color: 'D6002F',
+          },
+          {
+            name: 'TypeScript',
+            color: '2F74C0',
           },
           {
             name: 'PHP',
@@ -25,14 +41,6 @@ export default createStore({
           {
             name: 'MySql',
             color: 'DD8901',
-          },
-          {
-            name: 'TailwindCSS',
-            color: '005f89',
-          },
-          {
-            name: 'VueJs',
-            color: '3EB27F',
           },
           {
             name: 'C#',
@@ -49,10 +57,6 @@ export default createStore({
           {
             name: 'WooCommerce',
             color: '7B51AD',
-          },
-          {
-            name: 'Publisher',
-            color: '017174',
           },
         ],
       },

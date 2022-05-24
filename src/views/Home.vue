@@ -59,7 +59,7 @@
       <div class="flex text-[#FFFFFF] gap-4 flex-col md:flex-row md:p-5 max-w-screen-lg mx-auto py-16">
         <div class="flex flex-col text-[#333333]">
           <div class="flex-row text-left w-30 mx-auto p-10 lg:pl-0">
-            Titulaire d'un BTS SIO option SLAM, je suis actuellement en troisième année de Bachelor Développeur web et mobile à MydigitalSchool à Lyon. Je réalise cette formation en alternance au sein de l'entreprise ... en tant que ...<br>
+            Titulaire d'un BTS SIO option SLAM, je suis actuellement en troisième année de Bachelor Développeur web et mobile à <span class="font-bold">MydigitalSchool</span> à Lyon. Je réalise cette formation en alternance au sein de l'entreprise <a href="https://codiceo.fr/" target="_blank" class="font-bold">Codiceo</a> en tant que <span class="font-bold">Développeur Web</span>.<br>
             Avec mes projets de cours, personnels, ainsi que mes stages, j’ai pu apprendre:</div>
           <ul class="flex flex-row flex-wrap gap-2 mx-auto space-x-4 p-3 justify-center">
             <li class="py-1 px-3 text-white text-sm rounded-md h-auto w-auto transition duration-500 hover:scale-110" v-for="tech in this.langages.techno" v-bind:key="tech" :style="'background-color: #' + tech.color + '; color: #' + ContrastedColor(tech.color) + ';'">{{ tech.name }}</li>
