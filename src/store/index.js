@@ -131,7 +131,7 @@ export default createStore({
         name: 'Portfolio',
         img: 'home',
         description: 'Portfolio permettant de regrouper tous mes projets personnels et professionel, ainsi qu\'une partie blog.',
-        context: 'Projet personnel',
+        date: 'Avril 2022',
         color: 'FF5655',
         initiale: 'P',
         techno: [
@@ -164,7 +164,7 @@ export default createStore({
         name: 'Covoit',
         img: 'covoit',
         description: 'Application de covoiturage permettant de rejoindre ou de créer un voyage partout en France.',
-        context: 'Projet de cours',
+        date: 'Mars - Avril 2022',
         color: 'A9DD8E',
         initiale: 'C',
         techno: [
@@ -209,7 +209,7 @@ export default createStore({
         name: 'CovoitAdmin',
         img: 'CovoitAdmin',
         description: 'Gestion administrative des utilisateurs, véhicules, motorisations de l\'application Covoit.',
-        context: 'Projet de cours',
+        date: 'Mars - Avril 2022',
         color: '30A4A7',
         initiale: 'C',
         techno: [
@@ -234,7 +234,7 @@ export default createStore({
         name: 'Kathekon',
         img: 'kathekon',
         description: 'Site vitrine pour une entreprise spécialisé dans le conseil en RSE.',
-        context: 'Projet profesionnel',
+        date: 'Janvier 2022',
         color: 'F0CF50',
         initiale: 'K',
         techno: [
@@ -263,7 +263,7 @@ export default createStore({
         name: 'Vm-Automation',
         img: 'vmAutomation',
         description: 'Site vitrine pour une entreprise spécialisé dans la maintenance industrielle.',
-        context: 'Projet Profesionnel',
+        date: 'Janvier 2022',
         color: '7083BA',
         initiale: 'V',
         techno: [
@@ -284,6 +284,35 @@ export default createStore({
           {
             linkName: 'GitHub',
             link: 'https://github.com/Tristan-Boudra/VM-Automation',
+          },
+        ],
+      },
+      {
+        id: 6,
+        name: 'Portfolio',
+        img: 'premierPortfolio',
+        description: 'Tout premier portfolio avec l\'ensemble des mes compétences',
+        date: 'Octobre 2021',
+        color: '001845',
+        initiale: 'P',
+        techno: [
+          {
+            name: 'HTML',
+            color: '9f3519',
+          },
+          {
+            name: 'CSS',
+            color: '264BDD',
+          },
+          {
+            name: 'JavaScript',
+            color: 'EFD81D',
+          },
+        ],
+        links: [
+          {
+            linkName: 'GitHub',
+            link: 'https://github.com/Tristan-Boudra/Portfolio-BTS-SIO',
           },
         ],
       },
