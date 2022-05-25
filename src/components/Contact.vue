@@ -40,7 +40,7 @@
         </div>
         <div class="w-16 md:w-20 flex ml-auto">
           <div class="bg-amber-500 rounded-full w-16 md:w-20 h-16 md:h-20">
-            <img src="@/assets/Tristan.webp" class="rounded-full w-20 my-auto" alt="Image de profile dans contact">
+            <img src="@/assets/Tristan.webp" class="rounded-full w-20 my-auto" alt="Image Boudra Tristan section contact">
           </div>
         </div>
       </div>

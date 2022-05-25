@@ -18,7 +18,7 @@
         </div>
         <div class="flex-col md:order-0">
           <div class="absolute mt-20 ml-5">
-            <svg width="93" height="93" viewBox="0 0 93 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="93" height="93" viewBox="0 0 93 93" fill="none" xmlns="http://www.w3.org/2000/svg" alt="Carré de point orange en fond derrière Boudra Tristan">
               <circle cx="2.5" cy="2.5" r="2.5" fill="#F59E0B"/>
               <circle cx="2.5" cy="24.5" r="2.5" fill="#F59E0B"/>
               <circle cx="2.5" cy="46.5" r="2.5" fill="#F59E0B"/>
@@ -46,12 +46,12 @@
               <circle cx="90.5" cy="90.5" r="2.5" fill="#F59E0B"/>
             </svg>
           </div>
-          <img class="m-auto rounded-3xl mt-24 w-56 sm:w-72 h-auto md:w-80 lg:w-96" src="@/assets/Tristan.webp" alt="Image de profile">
+          <img class="m-auto rounded-3xl mt-24 w-56 sm:w-72 h-auto md:w-80 lg:w-96" src="@/assets/Tristan.webp" alt="Image Boudra Tristan indiquant propriétaire du portfolio">
         </div>
       </div>
       <div class="mt-20 mb-16">
         <a href="/#debut" class="block w-32 m-auto">
-          <img :src="'/files/arrows_down.gif'" alt="gif illustration blog" class="w-36 h-auto mx-auto">
+          <img :src="'/files/arrows_down.gif'" alt="GIF d'illustration accéder suite portfolio Boudra Tristan" class="w-36 h-auto mx-auto">
         </a>
       </div>
     </section>
@@ -111,7 +111,7 @@
           <p class="text-left p-3">J'ai décidé de créer un blog afin de partager mes connaissances ainsi que mes compétences afin que vous et moi puissions progresser ensemble et ainsi en apprendre davantage sur l'univers du <span class="font-semibold">développement web.</span><br>
             Vous y trouverez toutes sortes de sujets autant divers et variétés. En partant du début de la <span class="font-semibold">conception</span> d'un site web, des conseils pendant le <span class="font-semibold">développement</span> puis dans la finalisation d'un site et de la <span class="font-semibold">mise en production.</span></p>
           <div class="">
-            <img src="@/assets/blog.svg" alt="image illustration blog" class="w-72 h-auto mx-auto">
+            <img src="@/assets/blog.svg" alt="image illustration blog qui contiendra astuces, conception, développement" class="w-72 h-auto mx-auto">
           </div>
         </div>
         <router-link to="/blog" class="bg-[#333333] p-2 rounded-lg text-[#FFFFFF] font-bold text-center w-auto h-auto tracking-widest mx-auto">Voir les articles</router-link>

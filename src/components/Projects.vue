@@ -1,18 +1,18 @@
 <template>
   <div class="static rounded-lg shadow-[0_5px_25px_-3px_rgba(0,0,0,0.1)] hover:shadow-[0_5px_25px_-3px_rgba(0,0,0,0.2)] transition duration-500 hover:ease-in-out h-full max-w-screen-lg mx-auto px-5 py-4">
     <div class="absolute ml-3 md:ml-2 -mt-14 md:-mt-11">
-      <div class="rounded-full w-14 h-14 md:h-16 md:w-16 flex shadow-[0_15px_25px_0px_rgba(0,0,0,0.2)]" :style="'background-color: #' + data.color + ';'">
+      <div class="rounded-full w-14 h-14 md:h-16 md:w-16 flex shadow-[0_15px_25px_0px_rgba(0,0,0,0.2)]" :style="'background-color: #' + data.color + '; color: #' + ContrastedColor(data.color) + ';'">
         <p class="font-bold text-2xl rounded-full w-20 my-auto">{{ data.initiale }}</p>
       </div>
     </div>
     <div class="flex flex-col px-4">
       <h3 class="font-bold ml-0 text-2xl">{{ data.name }}</h3>
       <div class="flex flex-row gap-5">
-        <i data-feather="align-left" class="stroke-[#333333] hover:stroke-amber-500 my-auto"></i>
+        <i data-feather="align-left" class="stroke-[#333333] hover:stroke-amber-500 my-auto" alt="Icon de présentation de paragraphe"></i>
         <p class="my-5 w-full text-left">{{ data.description }}</p>
       </div>
       <div class="flex flex-row gap-5">
-        <i data-feather="calendar" class="stroke-[#333333] hover:stroke-amber-500 my-auto"></i>
+        <i data-feather="calendar" class="stroke-[#333333] hover:stroke-amber-500 my-auto" alt="Icon de calendrier pour connaitre la date de réalisation"></i>
         <p class="my-2 text-sm">{{ data.date }}</p>
       </div>
     </div>

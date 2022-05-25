@@ -8,11 +8,11 @@
     <div class="flex flex-col px-4">
       <h3 class="font-bold ml-0 text-2xl">{{ data.name }}</h3>
       <div class="flex flex-row gap-5">
-        <i data-feather="align-left" class="stroke-[#333333] hover:stroke-amber-500 my-auto"></i>
+        <i data-feather="align-left" class="stroke-[#333333] hover:stroke-amber-500 my-auto" alt="Icon de présentation de paragraphe"></i>
         <p class="my-5 w-full text-left">{{ data.description }}</p>
       </div>
       <div class="flex flex-row gap-5">
-        <i data-feather="pen-tool" class="stroke-[#333333] hover:stroke-amber-500 my-auto"></i>
+        <i data-feather="pen-tool" class="stroke-[#333333] hover:stroke-amber-500 my-auto" alt="Icon de calendrier pour connaitre la date de réalisation"></i>
         <p class="my-2 text-sm">{{ data.context }}</p>
       </div>
     </div>
