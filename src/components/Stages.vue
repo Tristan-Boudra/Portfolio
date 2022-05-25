@@ -12,8 +12,8 @@
         <p class="my-5 w-full text-left">{{ data.description }}</p>
       </div>
       <div class="flex flex-row gap-5">
-        <i data-feather="pen-tool" class="stroke-[#333333] hover:stroke-amber-500 my-auto" alt="Icon de calendrier pour connaitre la date de réalisation"></i>
-        <p class="my-2 text-sm">{{ data.context }}</p>
+        <i data-feather="calendar" class="stroke-[#333333] hover:stroke-amber-500 my-auto" alt="Icon de calendrier pour connaitre la date de réalisation"></i>
+        <p class="my-2 text-sm">{{ data.date }}</p>
       </div>
     </div>
     <div class="py-10">

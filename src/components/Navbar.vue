@@ -31,7 +31,7 @@
       </div>
       <div class="flex items-center mx-auto space-x-10">
         <nav class="hidden lg:text-white lg:tracking-wide font-semibold lg:space-x-8 lg:flex">
-          <div class="hover:bg-amber-500 hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="/" class="block h-16 leading-[4rem] text-[#333333] tracking-widest">Présentation</a></div>
+          <div class="hover:bg-amber-500 hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="/#presentation" class="block h-16 leading-[4rem] text-[#333333] tracking-widest">Présentation</a></div>
           <div class="hover:bg-amber-500 hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="/#projects" class="block h-16 leading-[4rem] text-[#333333] tracking-widest">Projets</a></div>
           <div class="hover:bg-amber-500 hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="/#stages" class="block h-16 leading-[4rem] text-[#333333] tracking-widest">Stages</a></div>
           <div class="hover:bg-amber-500 hover:h-12 hover:w-full hover:rounded-b-md hover:transition hover:duration-400"><a href="/#blog" class="block h-16 leading-[4rem] text-[#333333] tracking-widest">Blog</a></div>

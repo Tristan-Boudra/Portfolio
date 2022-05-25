@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <Navbar/>
-      <section id="presentation" class="max-w-screen-lg mx-auto min-h-screen py-20">
+      <section id="presentation" class="max-w-screen-lg mx-auto min-h-screen md:py-20 p-3">
         <h1 class="mx-auto font-bold text-3xl">Mentions légales</h1>
         <div class="text-[#333333] text-left pt-16 mx-auto">
           <div class="pb-8">

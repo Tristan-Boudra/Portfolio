@@ -64,10 +64,39 @@ export default createStore({
     stages: [
       {
         id: 0,
+        name: 'Web At Heart',
+        img: 'web-at-heart',
+        description: 'Stage de 2ème année de BTS SIO, j ai réaliser le design et le développement de sites vitrines et de e-commerce.',
+        date: 'Janvier 2022',
+        color: 'F23D4F',
+        initiale: 'W',
+        techno: [
+          {
+            name: 'Wordpress',
+            color: '006E9F',
+          },
+          {
+            name: 'Oxygen',
+            color: '301C8B',
+          },
+        ],
+        links: [
+          {
+            linkName: 'Kathekon',
+            link: 'https://www.projet-kathekon.com/',
+          },
+          {
+            linkName: 'VmAutomation',
+            link: 'https://www.vm-automation.com/',
+          },
+        ],
+      },
+      {
+        id: 1,
         name: 'Les Jardins de Brogieux',
         img: 'jardins_brogieux',
         description: 'Stage de 1ère année de BTS SIO, j\'ai réaliser l\'ajout de contenu sur le site, réseaux sociaux. Je me suis occuper également de créer une application afin de rendre les visites plus attrayante.',
-        context: 'Stage professionel',
+        date: 'Juin 2021',
         color: '6C7B21',
         initiale: 'J',
         techno: [
@@ -92,35 +121,6 @@ export default createStore({
           {
             linkName: 'Facebook',
             link: 'https://m.facebook.com/jardinsdebrogieux/',
-          },
-        ],
-      },
-      {
-        id: 1,
-        name: 'Web At Heart',
-        img: 'web-at-heart',
-        description: 'Stage de 2ème année de BTS SIO, j ai réaliser le design et le développement de sites vitrines et de e-commerce.',
-        context: 'Stage professionel',
-        color: 'F23D4F',
-        initiale: 'W',
-        techno: [
-          {
-            name: 'Wordpress',
-            color: '006E9F',
-          },
-          {
-            name: 'Oxygen',
-            color: '301C8B',
-          },
-        ],
-        links: [
-          {
-            linkName: 'Kathekon',
-            link: 'https://www.projet-kathekon.com/',
-          },
-          {
-            linkName: 'VmAutomation',
-            link: 'https://www.vm-automation.com/',
           },
         ],
       },
