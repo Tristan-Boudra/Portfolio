@@ -23,8 +23,7 @@
         <h2 class="font-bold text-xl md:text-3xl">Articles</h2>
         <img class="flex-row w-20 h-1 md:w-52 lg:w-full mt-5 rounded-full" src="@/assets/Line_dark.png" alt="Image droite séparent section articles avec l'introduction">
       </div>
-      <p>Aucun article n'est pour le moment disponible</p>
-      <div class="grid md:grid-cols-2 gap-16 p-10">
+      <div class="flex mx-auto justify-center max-w-screen-lg gap-16 flex-col px-4">
         <div v-for="row in Articles" v-bind:key="row">
           <Articles :data="row"/>
         </div>
