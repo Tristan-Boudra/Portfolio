@@ -323,14 +323,14 @@ export default createStore({
         titre: 'Comment créer un CV professionnel',
         description: 'Aujourd’hui je vais te donner tous les tips afin de réussir un CV qui va te démarquer des autres candidats.',
         image: 'covoit',
-        date: '27/05/2022',
-        auteur: 'Tristan',
+        date: '03/06/2022',
+        auteur: 'Boudra Tristan',
         pathName: 'Cv',
         categorie: [
           {
             id: 0,
             name: 'CV',
-            color: '51938D',
+            color: 'FED81D',
           },
         ],
       },

@@ -3,8 +3,7 @@ import Home from '../views/Home.vue';
 import Projects from '../views/Projects.vue';
 import Blog from '../views/Blog.vue';
 import MentionsLegales from '../views/MentionsLegales.vue';
-import Cv from '../views/Cv.vue';
-import Test from '../views/Test.vue';
+import Cv from '../views/Articles/Cv.vue';
 
 const routes = [
   {
@@ -49,15 +48,6 @@ const routes = [
     component: Cv,
     meta: {
       title: 'Cv',
-      transition: 'slide-left',
-    },
-  },
-  {
-    path: '/test',
-    name: 'Test',
-    component: Test,
-    meta: {
-      title: 'Test',
       transition: 'slide-left',
     },
   },
